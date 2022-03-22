@@ -1,0 +1,82 @@
+<!-- <p>register works!</p> -->
+<div fxLayout="column" fxLayoutAlign="space-between center" >
+    
+    <div class="Component">
+      <div class="Container">
+          <div class="row-content" fxLayout="column" fxLayoutAlign="space-between left">
+              <div class="divwrrap">
+                <div class="F">
+                    <span class="textsty" display=flex style="color:#4285f4">F</span>
+                    <span class="textsty" display=flex style="color:#ea4335">u</span>
+                    <span class="textsty" style="color:#fbbc05">n</span>
+                    <span class="textsty" style="color:#4285f4">d</span>
+                    <span class="textsty" style="color:#34a853">o</span>
+                    <span class="textsty" style="color:#ea4335">o</span>
+                </div>
+                <h4>Sign In</h4>
+                <h5>Use your Fundoo Account</h5>
+              </div>
+              <div class="Email" fxLayout="column" fxLayoutAlign="stretch">
+                  <form [formGroup]="loginForm" (ngSubmit)="onSubmitloginForm()">
+                    <mat-form-field appearance="outline">
+                        <mat-label>UserName</mat-label>
+                        <input matInput placeholder="UserName" formControlName="email">
+                        <mat-hint>you can use letter,number & peroids</mat-hint>
+                        <mat-error>Enter your email</mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput placeholder="Password" formControlName="password">
+                        <mat-hint>Use 8 or more characters with</mat-hint>
+                        <mat-error>Enter your password</mat-error>
+                    </mat-form-field>
+                    <div class="Hyper" style="cursor: pointer;" routerLink="/forgot">
+                        <a>Forgot email?</a>
+                    </div>
+                    <h5 style="width: 112%;">Not your computer? Use Guest mode to sign in privately.</h5>
+                    <div class="Hyper">
+                        <a>Learn more</a>
+                    </div>
+                      <button type="submit" class="Button">Next</button>      
+                  </form>
+            </div>
+              
+
+          </div>
+      </div>
+  </div>
+  </div>
+  <!-- <div class="tableWrapper">
+    <h2>Fundoo</h2>
+    <title>Create your Fundoo Account</title>
+   
+      <mat-form-field appearance="outline">
+          <mat-label>Fisrt Name</mat-label>
+          <input matInput placeholder="Firstname">
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input matInput placeholder="Lastname">
+        </mat-form-field>
+  
+  
+    <mat-form-field appearance="outline">
+      <mat-label>User Name</mat-label>
+      <input matInput placeholder="Username">
+    </mat-form-field>
+  
+    <div>
+      <mat-form-field appearance="outline">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="Password">
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline">
+          <mat-label>Confirm Password</mat-label>
+          <input matInput placeholder="Confirm">
+        </mat-form-field>
+  </div>
+  
+  </div> -->
+  
