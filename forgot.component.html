@@ -1,0 +1,32 @@
+<!-- <p>forgot works!</p> -->
+
+<div fxLayout="column" fxLayoutAlign="space-between center" >
+
+    <div class="Component">
+      <div class="Container">
+          <div class="row-content" fxLayout="column" fxLayoutAlign="space-between left">
+
+            <div class="F">
+                <span class="textsty" display=flex style="color:#4285f4">F</span>
+                <span class="textsty" display=flex style="color:#ea4335">u</span>
+                <span class="textsty" style="color:#fbbc05">n</span>
+                <span class="textsty" style="color:#4285f4">d</span>
+                <span class="textsty" style="color:#34a853">o</span>
+                <span class="textsty" style="color:#ea4335">o</span>
+            </div>
+            <div class="form-head"><h1>Find your email</h1></div>
+            <div><h4 class="form_header3">Enter your phone number or recovery email</h4></div>
+            <!-- <h4>Enter your phone number or recovery email</h4> -->
+            <div class="form-head"></div>
+            <div class="Name" fxLayout="row" fxLayoutAlign="space-between center">
+            </div>
+            <form [formGroup]="forgotForm" (ngSubmit)="onSubmitloginForm()">
+            <div class="Email" fxLayout="column" fxLayoutAlign="stretch">
+                <mat-form-field appearance="outline">
+                    <mat-label>Email or Phone</mat-label>
+                    <input matInput placeholder="Email" formControlName="emailorphone">
+                    <mat-error>Enter your email or phone</mat-error>
+                </mat-form-field>
+                <button type="submit" class="Button">Next</button>   
+            </div>
+            </form>
