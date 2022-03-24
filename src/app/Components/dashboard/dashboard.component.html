@@ -1,0 +1,47 @@
+<!-- <p>dashboard works!</p> -->
+
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+    <mat-toolbar color="" class="example-toolbar">
+      <button mat-icon-button class="menu_button" (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
+      <img class="keep_image" src="../../../assets/images/keep.png">
+      <h1 class="example-app-name">Keep</h1>
+
+      <div class="div_wrraper">
+        <form class="from_wrraper">
+          <div class="wrraper_div_seconed">
+            <input class="searchfrom"  autocomplete="off" placeholder="Search" value="" stype="text">
+          </div>
+          <img class="search_image" src="../../../assets/images/search.svg">
+          <!-- <img  class="clear_image" src="../../../assets/images/clear.svg"> -->
+        </form>
+        <!-- <form class="form-from_wrraper" mdbWavesEffect>
+          <div class="md-form mt-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          </div>
+        </form> -->
+      </div>
+
+      <div class="image_wrraper">
+        <img class="refresh_image" src="../../../assets/images/refresh.svg">
+        <img style="margin-left: 23px" src="../../../assets/images/view.svg">
+        <img style="margin-left: 23px" src="../../../assets/images/settings.svg">
+      </div>
+    </mat-toolbar>
+  
+    <mat-sidenav-container class="example-sidenav-container"
+                           [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+      <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
+                   [fixedInViewport]="mobileQuery.matches" fixedTopGap="56" class="mat_sideber">
+        <mat-nav-list>
+          <!-- <a mat-list-item routerLink="." *ngFor="let nav of fillerNav">{{nav}}</a> -->
+          <a mat-list-item routerLink="."><img class="icon" src="../../../assets/images/notifications.svg">Notes</a>
+          <a mat-list-item routerLink="."><img class="icon" src="../../../assets/images/lightbulb.svg">Remainders</a>
+          <a mat-list-item routerLink="."><img class="icon" src="../../../assets/images/edit.svg">Edit labels</a>
+          <a mat-list-item routerLink="."><img class="icon" src="../../../assets/images/archive.svg">Archive</a>
+          <a mat-list-item routerLink="."><img class="icon" src="../../../assets/images/delete.svg">Trash</a>
+          
+        </mat-nav-list>
+      </mat-sidenav>
+    </mat-sidenav-container>
+  </div>
+    

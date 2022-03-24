@@ -1,0 +1,144 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .example-is-mobile .example-toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+  }
+  
+  h1.example-app-name {
+    margin-left: 8px;
+  }
+  
+  .example-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+//     background-color: #fff;
+//     -webkit-box-sizing: border-box;
+//     box-sizing: border-box;
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: flex;
+//     -webkit-flex-direction: column;
+//     flex-direction: column;
+//     height: -webkit-calc(100% - 64px);
+//     height: calc(100% - 64px);
+//     min-height: auto;
+//     overflow: hidden;
+//     padding-top: 8px;
+//     position: fixed;
+//     top: 64px;
+//     -webkit-transition-duration: 150ms;
+//     transition-duration: 150ms;
+//     -webkit-transition-property: width,box-shadow,border-radius;
+//     transition-property: width,box-shadow,border-radius;
+//     -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+//     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+//     width: 280px;
+//     z-index: 985;
+}
+  
+  .example-is-mobile .example-sidenav-container {
+    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+       `<body>` to be our scrolling element for mobile layouts. */
+    flex: 1 0 auto;
+  }
+  
+  // .button_test{
+
+  // }
+  
+  .keep_image{
+    height: 39px;
+    margin-left: 23px;
+  }
+
+  .example-toolbar{
+    box-sizing: border-box;
+    border-bottom: solid 1px rgba(0,0,0,0.12);
+    background: white;
+  }
+  .search_from{
+    height: 46px;
+    width: 550px;
+    border: none;
+    background: #f1f3f4;
+    border: 1px solid transparent;
+  }
+  .div_wrraper{
+    width: 720px;
+    margin-left: 108px;
+
+  }
+  .search_image{
+    height: 25px;
+    margin-bottom: 34px;
+    color: #5f6368;
+    margin-top: -26px;
+  }
+  .clear_image{
+    margin-left: 503px;
+    margin-bottom: -7px;
+  }
+  
+.from_div_wrraper{
+      background: #f1f3f4;
+    border: 1px solid transparent;
+    max-width: 720px;
+    position: relative;
+    transition: background 100ms ease-in,width 100ms ease-out;
+}
+
+.icon{
+  padding: 12px;
+}
+
+.mat_sideber{
+  transform: none;
+  visibility: visible;
+  width: 280px;
+  height: calc(100% - 64px);
+  min-height: auto;
+  overflow: hidden;
+  padding-top: 8px;
+  position: fixed;
+  top: 64px;
+}
+
+// .mat-list-item-content{
+//   background-color: yellow;
+// }
+
+.menu_button{
+background: none;
+border: none;
+}
+.from_wrraper{
+  background: #f1f3f4;
+  border: 1px solid transparent;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  // margin-left: auto;
+  // margin-right: auto;
+  // max-width: 720px;
+  // position: relative;
+  // -webkit-transition: background 100ms ease-in,width 100ms ease-out;
+  // transition: background 100ms ease-in,width 100ms ease-out;
+  height: 44px;
+}
+.searchfrom{
+  margin-left: 36px;
+  margin-left: 36px;
+  border: none;
+  background: none;
+  border-radius: 8px;
+}
