@@ -1,0 +1,51 @@
+<!-- <p>createnote works!</p> -->
+
+<!-- <div class="Container">
+    <div class="row-content" fxLayoutAlign="space-between left">
+      <div class="formhead">Take a Note...</div>
+        <span class="material-icons-outlined">
+          <div>
+            <img class="search_image" src="../../../assets/images/newlist.svg">
+            <img class="search_image" src="../../../assets/images/drawing.svg">
+            <img class="search_image" src="../../../assets/images/img.svg">
+          </div>
+            </span>
+</div>
+</div>
+ <div class="Container">
+<h4>Take a Note...</h4>
+</div> --> 
+
+<mat-card class="matcard_wrraper" (click)="noteclick()">
+  <mat-card-title>Take a note ...</mat-card-title>
+  <div class="formhead">
+    <img class="search_image" src="../../../assets/images/newlist.svg">
+    <img class="searchimage" src="../../../assets/images/drawing.svg">
+    <img class="search_image" src="../../../assets/images/img.svg">
+  </div>
+</mat-card>
+
+<mat-card class="matcard_wrraper" *ngIf="notelist">
+  <mat-card-title>Title</mat-card-title>
+  <img class="icontop" src="../../../assets/images/pin.svg">
+
+  <h4> Take a note ...</h4>
+
+  <div class="icongroup">
+
+    <img class="search_image" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/remindme.svg">
+    <img class="searchimage" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/collaborator.svg">
+    <img class="search_image" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/background_option.svg">
+    <img class="search_image" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/img.svg">
+    <img class="search_image" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/archive.svg">
+    <img class="search_image" style="margin-right: 25px;
+    height: 20px;" src="../../../assets/images/more.svg">
+
+
+  </div>
+</mat-card>
