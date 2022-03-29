@@ -1,0 +1,15 @@
+
+<div fxLayout="row wrap">
+    <div class="takenote" fxLayout="column" fxLayoutAlign="space-around center">
+        <!-- <p [(ngModel)]="title">title</p>
+        <p [(ngModel)]="description">description</p> -->
+
+        <input type="text" placeholder="Title"  class="inputfiled" [(ngModel)]="title">
+        <input type="text" placeholder="Title"  class="inputfiled" [(ngModel)]="description">
+        <button (click)="onNoClick()">update</button>
+
+          <div style="margin-right: -120px;">
+            <app-icons></app-icons>
+          </div>
+    </div>
+</div>
