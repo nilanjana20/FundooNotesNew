@@ -1,0 +1,69 @@
+<div *ngIf="(!isDisplaynoteComponent && isArchiveComponent || !isTrashComponent); else notTrash" class="border">
+
+  <div class="icons">
+    <button mat-icon-button>
+      <img src="../../../assets/images/remindme.svg" alt="">
+    </button>
+  </div>
+  <div class="icons">
+    <button mat-icon-button>
+      <img src="../../../assets/images/collaborator.svg" alt="">
+    </button>
+  </div>
+  <div class="icons">
+    <button mat-icon-button [matMenuTriggerFor]="background_option">
+      <img src="../../../assets/images/background_option.svg" alt="">
+    </button>
+    <mat-menu #background_option="matMenu" class="box">
+      <div *ngFor="let color of colors" class="themes">
+        <button [style.background]="color?.code" class="color" (click)="backgroundcolornotes(color?.code)"></button>
+      </div>
+    </mat-menu>
+  </div>
+  <div class="icons">
+    <button mat-icon-button>
+      <img src="../../../assets/images/img.svg" alt="">
+    </button>
+  </div>
+
+  <div *ngIf="!isArchiveComponent; else unArchived" class="icons">
+    <button mat-icon-button (click)="archivenotes()">
+      <img src="../../../assets/images/archive.svg" alt="">
+    </button>
+  </div>
+
+  <div class="icons">
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <img src="../../../assets/images/more.svg" alt="">
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item class="matMenu" (click)="trashnotes()">
+        <span>Delete</span>
+      </button>
+    </mat-menu>
+  </div>
+</div>
+
+<ng-template #notTrash >
+  <div class="delete_icons">
+  <div >
+    <button mat-icon-button>
+      <img src="../../../assets/images/delete_forever.svg" alt="" (click)="deletenotesforever()">
+    </button>
+  </div>
+  <div>
+    <button mat-icon-button>
+      <img src="../../../assets/images/delete.svg" alt="" (click)="restorenotes()">
+    </button>
+  </div>
+</div>
+</ng-template>
+
+<ng-template #unArchived>
+  <div >
+    <button class="unarchived" mat-icon-button>
+      <img src="../../../assets/images/unarchive.svg" alt="" (click)="unarchivenotes()">
+    </button>
+  </div>    
+</ng-template>
