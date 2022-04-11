@@ -1,2 +1,2 @@
 <app-createnote (messageEvent)="receiveMessage($event)"></app-createnote>
-<app-displaynote [childMessage]="notelist"></app-displaynote>
+<app-displaynote class="flexbox" [childMessage]="notelist" (refreshevent)="receiveMessage($event)" [class.formatStyle]="format"></app-displaynote>

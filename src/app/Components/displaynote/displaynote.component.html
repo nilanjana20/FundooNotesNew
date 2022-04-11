@@ -1,9 +1,7 @@
-<!-- <p>displaynote works!</p> -->
-
-<div *ngFor="let note of childMessage" class="takenote" fxLayout="row" fxLayoutAlign="space-around center">
-    <!-- <div> -->
-        <p>{{note.title}}</p>
-        <p>{{note.description}}</p>
-    <!-- </div> -->
-
+<div *ngFor="let note of childMessage | filter:filteredString" fxLayout="row-wrap">
+    <div [style.background]="note.color" class="takenote" fxLayout="column" [class.formatStyle]="format">
+        <p (click)="openDialog(note)" class="notetext">{{note.title}}</p>
+        <p (click)="openDialog(note)" class="notetext">{{note.description}}</p>
+        <app-icons class="allicons" [message]="note" (refresh)="receiveMessage($event)" ></app-icons>
+    </div>
 </div>

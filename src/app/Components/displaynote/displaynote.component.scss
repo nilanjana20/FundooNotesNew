@@ -1,11 +1,26 @@
-.takenote{
-    border: 1px solid green; 
-    width:600px;
-    margin-left: 281px;
+.takenote {
+    border: 1px solid silver; 
+    width:200px;
     border-color: #e0e0e0;
-    margin-top: 44px;
     border-radius: 14px;
-    width: 200px;
-    height: 120px;
+    margin: 15px;
+    height: auto;
+}
 
+.notetext{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.formatStyle{
+    width: 500px;
+    height: auto;
+}
+
+.allicons{
+    display: none;
+}
+
+.takenote:hover .allicons{
+    display: block;
 }

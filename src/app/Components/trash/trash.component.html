@@ -1,3 +1,2 @@
-<!-- <p>trash works!</p> -->
 
-<app-displaynote class="flexbox" [childMessage]="trashlist"></app-displaynote>
+<app-displaynote class="flexbox" [childMessage]="trashlist" (refreshevent)="receiveMessage($event)" [class.formatStyle]="format"></app-displaynote>

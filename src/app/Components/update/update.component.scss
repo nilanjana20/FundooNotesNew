@@ -1,0 +1,35 @@
+.body{
+    // border: 5px solid green;
+}
+
+.updatenote{
+    // border: 2px solid red;
+    // margin: -24px;
+    padding: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    // padding: 24px;
+}
+
+.inputfiled{
+height: 30px;
+width: 50%;
+border: none;
+background-color: transparent;
+}
+
+.update{
+    display: flex;
+    margin-top: 10px;
+}
+.icongroup{
+padding-top: 10px;
+}
+
+.buttonupdate{
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+}

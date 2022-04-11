@@ -19,43 +19,12 @@
   }
   
   .example-sidenav-container {
-    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
-       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;
-//     background-color: #fff;
-//     -webkit-box-sizing: border-box;
-//     box-sizing: border-box;
-//     display: -webkit-box;
-//     display: -webkit-flex;
-//     display: flex;
-//     -webkit-flex-direction: column;
-//     flex-direction: column;
-//     height: -webkit-calc(100% - 64px);
-//     height: calc(100% - 64px);
-//     min-height: auto;
-//     overflow: hidden;
-//     padding-top: 8px;
-//     position: fixed;
-//     top: 64px;
-//     -webkit-transition-duration: 150ms;
-//     transition-duration: 150ms;
-//     -webkit-transition-property: width,box-shadow,border-radius;
-//     transition-property: width,box-shadow,border-radius;
-//     -webkit-transition-timing-function: cubic-bezier(0.4,0,0.2,1);
-//     transition-timing-function: cubic-bezier(0.4,0,0.2,1);
-//     width: 280px;
-//     z-index: 985;
 }
   
   .example-is-mobile .example-sidenav-container {
-    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
-       `<body>` to be our scrolling element for mobile layouts. */
     flex: 1 0 auto;
   }
-  
-  // .button_test{
-
-  // }
   
   .keep_image{
     height: 39px;
@@ -77,7 +46,6 @@
   .div_wrraper{
     width: 720px;
     margin-left: 108px;
-
   }
   .search_image{
     height: 25px;
@@ -90,13 +58,13 @@
     margin-bottom: -7px;
   }
   
-.from_div_wrraper{
-      background: #f1f3f4;
-    border: 1px solid transparent;
-    max-width: 720px;
-    position: relative;
-    transition: background 100ms ease-in,width 100ms ease-out;
-}
+// .from_div_wrraper{
+//       background: #f1f3f4;
+//     border: 1px solid transparent;
+//     max-width: 720px;
+//     position: relative;
+//     transition: background 100ms ease-in,width 100ms ease-out;
+// }
 
 .icon{
   padding: 12px;
@@ -105,7 +73,7 @@
 .mat_sideber{
   transform: none;
   visibility: visible;
-  width: 280px;
+  width: 250px;
   height: calc(100% - 64px);
   min-height: auto;
   overflow: hidden;
@@ -113,10 +81,6 @@
   position: fixed;
   top: 64px;
 }
-
-// .mat-list-item-content{
-//   background-color: yellow;
-// }
 
 .menu_button{
 background: none;
@@ -127,18 +91,56 @@ border: none;
   border: 1px solid transparent;
   -webkit-border-radius: 8px;
   border-radius: 8px;
-  // margin-left: auto;
-  // margin-right: auto;
-  // max-width: 720px;
-  // position: relative;
-  // -webkit-transition: background 100ms ease-in,width 100ms ease-out;
-  // transition: background 100ms ease-in,width 100ms ease-out;
   height: 44px;
+  opacity: 0.54;
 }
-.searchfrom{
+.searchfrom {
   margin-left: 36px;
   margin-left: 36px;
   border: none;
   background: none;
-  border-radius: 8px;
+}
+Input:focus{outline: none}
+
+.image_wrraper{
+  display: flex;
+  opacity: 0.54;
+  margin-left: 44px;
+}
+.toolbar_image{
+  opacity: 0.54;
+}
+
+.div_wrraper-xs{
+  width: 150px;
+  margin-left: 20px;
+}
+
+.div_wrraper-md{
+  width: 500px;
+  margin-left: 20px;
+}
+
+.div_wrraper-sm{
+  width: 300px;
+  margin-left: 20px;
+}
+
+.list-sm{
+  margin-left: 10px;
+}
+
+.toolbar_image_xs{
+  margin-left: -10px;
+}
+.toolbar_image_sm{
+  margin-left: -10px;
+}
+
+.menu-xs{
+  margin-left: -15px;
+}
+
+.list-xs{
+  margin-left: -50px;
 }

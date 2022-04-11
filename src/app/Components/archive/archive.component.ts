@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { DatashareService } from 'src/app/Services/dataShare/datashare.service';
 import { NoteService } from 'src/app/Services/noteService/note.service';
 
 @Component({
@@ -7,11 +9,14 @@ import { NoteService } from 'src/app/Services/noteService/note.service';
   styleUrls: ['./archive.component.scss']
 })
 export class ArchiveComponent implements OnInit {
+  format:any;
 
-  constructor(private note:NoteService) { }
+  constructor(private note:NoteService, private router:Router, public dataService:DatashareService) { }
 
   ngOnInit(): void {
     this.archivenotes()
+    this.dataService.store1.subscribe(x => this.format=x)
+    // this.router.routeReuseStrategy.shouldReuseRoute = () =>{ return false; }
   }
 
   archivelist:any;
@@ -22,4 +27,7 @@ export class ArchiveComponent implements OnInit {
      })
   }
   
+  receiveMessage(event:any){
+    this.archivenotes()
+  }
 }

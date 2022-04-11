@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:4200/regiser -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Fundonotes</title>
+  <!--<base href="/">--><base href=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link href="./Fundonotes_files/css2" rel="stylesheet">
+  <link href="./Fundonotes_files/icon" rel="stylesheet">
+<link rel="stylesheet" href="./Fundonotes_files/styles.css"><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MifQ== */</style><style>.Component[_ngcontent-nkg-c90] {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2px;
+  height: 75%;
+  width: 75%;
+  margin: auto;
+  border: 30px solid white;
+}
+
+.Container[_ngcontent-nkg-c90] {
+  height: 130%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 700px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 2px solid #b8b1b1;
+}
+
+.F[_ngcontent-nkg-c90] {
+  font: normal normal bold 24px/37px Roboto;
+  margin-top: 90px;
+}
+
+.account[_ngcontent-nkg-c90] {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  border: 60px;
+  font-size: medium;
+  align-items: center;
+  width: 100%;
+  height: 55%;
+}
+
+.form-head[_ngcontent-nkg-c90] {
+  font: normal normal 24px/37px Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.row-content[_ngcontent-nkg-c90] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 60%;
+  margin-left: 5px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.Button[_ngcontent-nkg-c90] {
+  right: 570px;
+  background-color: #4565f3;
+  color: white;
+  width: 70px;
+  height: 35px;
+  top: auto;
+  bottom: 0px;
+  padding: 10px;
+  margin: 50;
+  border: 1px solid blue;
+  border-radius: 5px;
+  margin-left: 350px;
+}
+
+.Hyper[_ngcontent-nkg-c90] {
+  padding: 10px;
+  color: #4565f3;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Name[_ngcontent-nkg-c90] {
+  font: normal 6px/6px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.Email[_ngcontent-nkg-c90] {
+  font: normal normal bold 14px/10px Roboto;
+  width: 100%;
+  text-align: left;
+}
+
+.Sign[_ngcontent-nkg-c90] {
+  padding: 20px;
+  position: absolute;
+  color: #4565f3;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZ2lzZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLFlBQUE7RUFDQSx3QkFBQTtBQUNGOztBQUNBO0VBQ0EsWUFBQTtFQUNBLG1CQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsbUJBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtFQUNBLHlCQUFBO0VBQ0EseUJBQUE7QUFFQTs7QUFBQTtFQUNBLHlDQUFBO0VBQ0EsZ0JBQUE7QUFHQTs7QUFEQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtFQUNBLGlCQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsbUJBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtBQUlBOztBQUZBO0VBQ0Esb0NBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBS0E7O0FBSEE7RUFDRSxhQUFBO0VBQ0Esc0JBQUE7RUFDQSxtQkFBQTtFQUNBLG1CQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtBQU1GOztBQUpBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsVUFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQU9BOztBQUxBO0VBQ0UsYUFBQTtFQUNBLGNBQUE7RUFDQSw2RUFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtBQVFGOztBQU5BO0VBQ0Usb0JBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7RUFDQSxtQkFBQTtBQVNGOztBQVBBO0VBQ0UseUNBQUE7RUFDQSxXQUFBO0VBQ0EsZ0JBQUE7QUFVRjs7QUFSQTtFQUNFLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSw2RUFBQTtFQUNBLGlCQUFBO0VBQ0EsZ0JBQUE7QUFXRiIsImZpbGUiOiJyZWdpc2VyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLkNvbXBvbmVudHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBwYWRkaW5nOiAycHg7XHJcbiAgaGVpZ2h0OiA3NSU7XHJcbiAgd2lkdGg6IDc1JTtcclxuICBtYXJnaW46IGF1dG87XHJcbiAgYm9yZGVyOiAzMHB4IHNvbGlkIHdoaXRlO1xyXG59XHJcbi5Db250YWluZXJ7XHJcbmhlaWdodDogMTMwJTtcclxuYm9yZGVyLXJhZGl1czogMTBweDtcclxuZGlzcGxheTogZmxleDtcclxuYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuZmxleC1kaXJlY3Rpb246IHJvdztcclxud2lkdGg6IDcwMHB4O1xyXG5tYXJnaW46IDAgYXV0bztcclxucGFkZGluZzogMCAyMHB4IDIwcHggMjBweDtcclxuYm9yZGVyOiAycHggc29saWQgcmdiKDE4NCwgMTc3LCAxNzcpO1xyXG59XHJcbi5Ge1xyXG5mb250OiBub3JtYWwgbm9ybWFsIGJvbGQgMjRweC8zN3B4IFJvYm90bztcclxubWFyZ2luLXRvcDogOTBweDtcclxufVxyXG4uYWNjb3VudHtcclxuZGlzcGxheTogZmxleDtcclxuZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxubWFyZ2luLWxlZnQ6IDUwcHg7XHJcbmJvcmRlcjogNjBweDtcclxuZm9udC1zaXplOiBtZWRpdW07XHJcbmFsaWduLWl0ZW1zOmNlbnRlcjtcclxud2lkdGg6IDEwMCU7XHJcbmhlaWdodDogNTUlO1xyXG59XHJcbi5mb3JtLWhlYWQge1xyXG5mb250OiBub3JtYWwgbm9ybWFsIDI0cHgvMzdweCBSb2JvdG87XHJcbmRpc3BsYXk6IGZsZXg7XHJcbmZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbmFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0O1xyXG5tYXJnaW4tYm90dG9tOiAxNXB4O1xyXG59XHJcbi5yb3ctY29udGVudHtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgbWFyZ2luLWJvdHRvbTogMTVweDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIHdpZHRoOiA2MCU7XHJcbiAgbWFyZ2luLWxlZnQ6IDVweDtcclxuICBtYXJnaW4tdG9wOiA2MHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDYwcHg7XHJcbn1cclxuLkJ1dHRvbntcclxucmlnaHQ6IDU3MHB4O1xyXG5iYWNrZ3JvdW5kLWNvbG9yOnJnYig2OSwgMTAxLCAyNDMpO1xyXG5jb2xvcjogd2hpdGU7XHJcbndpZHRoOiA3MHB4O1xyXG5oZWlnaHQ6IDM1cHg7XHJcbnRvcDphdXRvO1xyXG5ib3R0b206IDBweDtcclxucGFkZGluZzogMTBweDtcclxubWFyZ2luOiA1MDtcclxuYm9yZGVyOiAxcHggc29saWQgYmx1ZTtcclxuYm9yZGVyLXJhZGl1czogNXB4O1xyXG5tYXJnaW4tbGVmdDozNTBweDtcclxufVxyXG4uSHlwZXJ7XHJcbiAgcGFkZGluZzogMTBweDtcclxuICBjb2xvcjogcmdiKDY5LCAxMDEsIDI0Myk7XHJcbiAgZm9udC1mYW1pbHk6J0dpbGwgU2FucycsICdHaWxsIFNhbnMgTVQnLCBDYWxpYnJpLCAnVHJlYnVjaGV0IE1TJywgc2Fucy1zZXJpZjtcclxuICBmb250LXNpemU6IG1lZGl1bTtcclxuICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDMwcHg7XHJcbn1cclxuLk5hbWV7XHJcbiAgZm9udDogbm9ybWFsIDZweC82cHg7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxuICBtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG59XHJcbi5FbWFpbHtcclxuICBmb250OiBub3JtYWwgbm9ybWFsIGJvbGQgMTRweC8xMHB4IFJvYm90bztcclxuICB3aWR0aDogMTAwJTtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG59XHJcbi5TaWdue1xyXG4gIHBhZGRpbmc6IDIwcHg7XHJcbiAgcG9zaXRpb246YWJzb2x1dGU7ICBcclxuICBjb2xvcjogcmdiKDY5LCAxMDEsIDI0Myk7XHJcbiAgZm9udC1mYW1pbHk6J0dpbGwgU2FucycsICdHaWxsIFNhbnMgTVQnLCBDYWxpYnJpLCAnVHJlYnVjaGV0IE1TJywgc2Fucy1zZXJpZjtcclxuICBmb250LXNpemU6IG1lZGl1bTtcclxuICBtYXJnaW4tdG9wOiA0MHB4XHJcbn0iXX0= */</style><style type="text/css">
+/*
+  @angular/flex-layout - workaround for possible browser quirk with mediaQuery listeners
+  see http://bit.ly/2sd4HMP
+*/
+@media screen and (min-width: 600px), screen and (min-width: 960px), screen and (min-width: 1280px), screen and (min-width: 1920px), screen and (min-width: 1920px) and (max-width: 4999.98px), screen and (max-width: 1919.98px), screen and (min-width: 1280px) and (max-width: 1919.98px), screen and (max-width: 1279.98px), screen and (min-width: 960px) and (max-width: 1279.98px), screen and (max-width: 959.98px), screen and (min-width: 600px) and (max-width: 959.98px), screen and (max-width: 599.98px), screen and (min-width: 0px) and (max-width: 599.98px), print {.fx-query-test{ }}
+</style><style>.mat-form-field{display:inline-block;position:relative;text-align:left}[dir=rtl] .mat-form-field{text-align:right}.mat-form-field-wrapper{position:relative}.mat-form-field-flex{display:inline-flex;align-items:baseline;box-sizing:border-box;width:100%}.mat-form-field-prefix,.mat-form-field-suffix{white-space:nowrap;flex:none;position:relative}.mat-form-field-infix{display:block;position:relative;flex:auto;min-width:0;width:180px}.cdk-high-contrast-active .mat-form-field-infix{border-image:linear-gradient(transparent, transparent)}.mat-form-field-label-wrapper{position:absolute;left:0;box-sizing:content-box;width:100%;height:100%;overflow:hidden;pointer-events:none}[dir=rtl] .mat-form-field-label-wrapper{left:auto;right:0}.mat-form-field-label{position:absolute;left:0;font:inherit;pointer-events:none;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;transform-origin:0 0;transition:transform 400ms cubic-bezier(0.25, 0.8, 0.25, 1),color 400ms cubic-bezier(0.25, 0.8, 0.25, 1),width 400ms cubic-bezier(0.25, 0.8, 0.25, 1);display:none}[dir=rtl] .mat-form-field-label{transform-origin:100% 0;left:auto;right:0}.cdk-high-contrast-active .mat-form-field-disabled .mat-form-field-label{color:GrayText}.mat-form-field-empty.mat-form-field-label,.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label{display:block}.mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-label-wrapper .mat-form-field-label{display:none}.mat-form-field-can-float .mat-form-field-autofill-control:-webkit-autofill+.mat-form-field-label-wrapper .mat-form-field-label{display:block;transition:none}.mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label,.mat-input-server[placeholder]:not(:placeholder-shown)+.mat-form-field-label-wrapper .mat-form-field-label{display:none}.mat-form-field-can-float .mat-input-server:focus+.mat-form-field-label-wrapper .mat-form-field-label,.mat-form-field-can-float .mat-input-server[placeholder]:not(:placeholder-shown)+.mat-form-field-label-wrapper .mat-form-field-label{display:block}.mat-form-field-label:not(.mat-form-field-empty){transition:none}.mat-form-field-underline{position:absolute;width:100%;pointer-events:none;transform:scale3d(1, 1.0001, 1)}.mat-form-field-ripple{position:absolute;left:0;width:100%;transform-origin:50%;transform:scaleX(0.5);opacity:0;transition:background-color 300ms cubic-bezier(0.55, 0, 0.55, 0.2)}.mat-form-field.mat-focused .mat-form-field-ripple,.mat-form-field.mat-form-field-invalid .mat-form-field-ripple{opacity:1;transform:none;transition:transform 300ms cubic-bezier(0.25, 0.8, 0.25, 1),opacity 100ms cubic-bezier(0.25, 0.8, 0.25, 1),background-color 300ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-subscript-wrapper{position:absolute;box-sizing:border-box;width:100%;overflow:hidden}.mat-form-field-subscript-wrapper .mat-icon,.mat-form-field-label-wrapper .mat-icon{width:1em;height:1em;font-size:inherit;vertical-align:baseline}.mat-form-field-hint-wrapper{display:flex}.mat-form-field-hint-spacer{flex:1 0 1em}.mat-error{display:block}.mat-form-field-control-wrapper{position:relative}.mat-form-field-hint-end{order:1}.mat-form-field._mat-animation-noopable .mat-form-field-label,.mat-form-field._mat-animation-noopable .mat-form-field-ripple{transition:none}
+</style><style>.mat-form-field-appearance-fill .mat-form-field-flex{border-radius:4px 4px 0 0;padding:.75em .75em 0 .75em}.cdk-high-contrast-active .mat-form-field-appearance-fill .mat-form-field-flex{outline:solid 1px}.cdk-high-contrast-active .mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex{outline-color:GrayText}.cdk-high-contrast-active .mat-form-field-appearance-fill.mat-focused .mat-form-field-flex{outline:dashed 3px}.mat-form-field-appearance-fill .mat-form-field-underline::before{content:"";display:block;position:absolute;bottom:0;height:1px;width:100%}.mat-form-field-appearance-fill .mat-form-field-ripple{bottom:0;height:2px}.cdk-high-contrast-active .mat-form-field-appearance-fill .mat-form-field-ripple{height:0}.mat-form-field-appearance-fill:not(.mat-form-field-disabled) .mat-form-field-flex:hover~.mat-form-field-underline .mat-form-field-ripple{opacity:1;transform:none;transition:opacity 600ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-appearance-fill._mat-animation-noopable:not(.mat-form-field-disabled) .mat-form-field-flex:hover~.mat-form-field-underline .mat-form-field-ripple{transition:none}.mat-form-field-appearance-fill .mat-form-field-subscript-wrapper{padding:0 1em}
+</style><style>.mat-input-element{font:inherit;background:transparent;color:currentColor;border:none;outline:none;padding:0;margin:0;width:100%;max-width:100%;vertical-align:bottom;text-align:inherit;box-sizing:content-box}.mat-input-element:-moz-ui-invalid{box-shadow:none}.mat-input-element,.mat-input-element::-webkit-search-cancel-button,.mat-input-element::-webkit-search-decoration,.mat-input-element::-webkit-search-results-button,.mat-input-element::-webkit-search-results-decoration{-webkit-appearance:none}.mat-input-element::-webkit-contacts-auto-fill-button,.mat-input-element::-webkit-caps-lock-indicator,.mat-input-element:not([type=password])::-webkit-credentials-auto-fill-button{visibility:hidden}.mat-input-element[type=date],.mat-input-element[type=datetime],.mat-input-element[type=datetime-local],.mat-input-element[type=month],.mat-input-element[type=week],.mat-input-element[type=time]{line-height:1}.mat-input-element[type=date]::after,.mat-input-element[type=datetime]::after,.mat-input-element[type=datetime-local]::after,.mat-input-element[type=month]::after,.mat-input-element[type=week]::after,.mat-input-element[type=time]::after{content:" ";white-space:pre;width:1px}.mat-input-element::-webkit-inner-spin-button,.mat-input-element::-webkit-calendar-picker-indicator,.mat-input-element::-webkit-clear-button{font-size:.75em}.mat-input-element::placeholder{-webkit-user-select:none;-moz-user-select:none;user-select:none;transition:color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-input-element::-moz-placeholder{-webkit-user-select:none;-moz-user-select:none;user-select:none;transition:color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-input-element::-webkit-input-placeholder{-webkit-user-select:none;-moz-user-select:none;user-select:none;transition:color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-input-element:-ms-input-placeholder{-webkit-user-select:none;-moz-user-select:none;user-select:none;transition:color 400ms 133.3333333333ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-hide-placeholder .mat-input-element::placeholder{color:transparent !important;-webkit-text-fill-color:transparent;transition:none}.cdk-high-contrast-active .mat-form-field-hide-placeholder .mat-input-element::placeholder{opacity:0}.mat-form-field-hide-placeholder .mat-input-element::-moz-placeholder{color:transparent !important;-webkit-text-fill-color:transparent;transition:none}.cdk-high-contrast-active .mat-form-field-hide-placeholder .mat-input-element::-moz-placeholder{opacity:0}.mat-form-field-hide-placeholder .mat-input-element::-webkit-input-placeholder{color:transparent !important;-webkit-text-fill-color:transparent;transition:none}.cdk-high-contrast-active .mat-form-field-hide-placeholder .mat-input-element::-webkit-input-placeholder{opacity:0}.mat-form-field-hide-placeholder .mat-input-element:-ms-input-placeholder{color:transparent !important;-webkit-text-fill-color:transparent;transition:none}.cdk-high-contrast-active .mat-form-field-hide-placeholder .mat-input-element:-ms-input-placeholder{opacity:0}textarea.mat-input-element{resize:vertical;overflow:auto}textarea.mat-input-element.cdk-textarea-autosize{resize:none}textarea.mat-input-element{padding:2px 0;margin:-2px 0}select.mat-input-element{-moz-appearance:none;-webkit-appearance:none;position:relative;background-color:transparent;display:inline-flex;box-sizing:border-box;padding-top:1em;top:-1em;margin-bottom:-1em}select.mat-input-element::-moz-focus-inner{border:0}select.mat-input-element:not(:disabled){cursor:pointer}.mat-form-field-type-mat-native-select .mat-form-field-infix::after{content:"";width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid;position:absolute;top:50%;right:0;margin-top:-2.5px;pointer-events:none}[dir=rtl] .mat-form-field-type-mat-native-select .mat-form-field-infix::after{right:auto;left:0}.mat-form-field-type-mat-native-select .mat-input-element{padding-right:15px}[dir=rtl] .mat-form-field-type-mat-native-select .mat-input-element{padding-right:0;padding-left:15px}.mat-form-field-type-mat-native-select .mat-form-field-label-wrapper{max-width:calc(100% - 10px)}.mat-form-field-type-mat-native-select.mat-form-field-appearance-outline .mat-form-field-infix::after{margin-top:-5px}.mat-form-field-type-mat-native-select.mat-form-field-appearance-fill .mat-form-field-infix::after{margin-top:-10px}
+</style><style>.mat-form-field-appearance-legacy .mat-form-field-label{transform:perspective(100px)}.mat-form-field-appearance-legacy .mat-form-field-prefix .mat-icon,.mat-form-field-appearance-legacy .mat-form-field-suffix .mat-icon{width:1em}.mat-form-field-appearance-legacy .mat-form-field-prefix .mat-icon-button,.mat-form-field-appearance-legacy .mat-form-field-suffix .mat-icon-button{font:inherit;vertical-align:baseline}.mat-form-field-appearance-legacy .mat-form-field-prefix .mat-icon-button .mat-icon,.mat-form-field-appearance-legacy .mat-form-field-suffix .mat-icon-button .mat-icon{font-size:inherit}.mat-form-field-appearance-legacy .mat-form-field-underline{height:1px}.cdk-high-contrast-active .mat-form-field-appearance-legacy .mat-form-field-underline{height:0;border-top:solid 1px}.mat-form-field-appearance-legacy .mat-form-field-ripple{top:0;height:2px;overflow:hidden}.cdk-high-contrast-active .mat-form-field-appearance-legacy .mat-form-field-ripple{height:0;border-top:solid 2px}.mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline{background-position:0;background-color:transparent}.cdk-high-contrast-active .mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline{border-top-style:dotted;border-top-width:2px;border-top-color:GrayText}.mat-form-field-appearance-legacy.mat-form-field-invalid:not(.mat-focused) .mat-form-field-ripple{height:1px}
+</style><style>.mat-form-field-appearance-outline .mat-form-field-wrapper{margin:.25em 0}.mat-form-field-appearance-outline .mat-form-field-flex{padding:0 .75em 0 .75em;margin-top:-0.25em;position:relative}.mat-form-field-appearance-outline .mat-form-field-prefix,.mat-form-field-appearance-outline .mat-form-field-suffix{top:.25em}.mat-form-field-appearance-outline .mat-form-field-outline{display:flex;position:absolute;top:.25em;left:0;right:0;bottom:0;pointer-events:none}.mat-form-field-appearance-outline .mat-form-field-outline-start,.mat-form-field-appearance-outline .mat-form-field-outline-end{border:1px solid currentColor;min-width:5px}.mat-form-field-appearance-outline .mat-form-field-outline-start{border-radius:5px 0 0 5px;border-right-style:none}[dir=rtl] .mat-form-field-appearance-outline .mat-form-field-outline-start{border-right-style:solid;border-left-style:none;border-radius:0 5px 5px 0}.mat-form-field-appearance-outline .mat-form-field-outline-end{border-radius:0 5px 5px 0;border-left-style:none;flex-grow:1}[dir=rtl] .mat-form-field-appearance-outline .mat-form-field-outline-end{border-left-style:solid;border-right-style:none;border-radius:5px 0 0 5px}.mat-form-field-appearance-outline .mat-form-field-outline-gap{border-radius:.000001px;border:1px solid currentColor;border-left-style:none;border-right-style:none}.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-outline-gap{border-top-color:transparent}.mat-form-field-appearance-outline .mat-form-field-outline-thick{opacity:0}.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-start,.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-end,.mat-form-field-appearance-outline .mat-form-field-outline-thick .mat-form-field-outline-gap{border-width:2px}.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline,.mat-form-field-appearance-outline.mat-form-field-invalid .mat-form-field-outline{opacity:0;transition:opacity 100ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick,.mat-form-field-appearance-outline.mat-form-field-invalid .mat-form-field-outline-thick{opacity:1}.cdk-high-contrast-active .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick{border:3px dashed}.mat-form-field-appearance-outline:not(.mat-form-field-disabled) .mat-form-field-flex:hover .mat-form-field-outline{opacity:0;transition:opacity 600ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-appearance-outline:not(.mat-form-field-disabled) .mat-form-field-flex:hover .mat-form-field-outline-thick{opacity:1}.mat-form-field-appearance-outline .mat-form-field-subscript-wrapper{padding:0 1em}.cdk-high-contrast-active .mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline{color:GrayText}.mat-form-field-appearance-outline._mat-animation-noopable:not(.mat-form-field-disabled) .mat-form-field-flex:hover~.mat-form-field-outline,.mat-form-field-appearance-outline._mat-animation-noopable .mat-form-field-outline,.mat-form-field-appearance-outline._mat-animation-noopable .mat-form-field-outline-start,.mat-form-field-appearance-outline._mat-animation-noopable .mat-form-field-outline-end,.mat-form-field-appearance-outline._mat-animation-noopable .mat-form-field-outline-gap{transition:none}
+</style><style>.mat-form-field-appearance-standard .mat-form-field-flex{padding-top:.75em}.mat-form-field-appearance-standard .mat-form-field-underline{height:1px}.cdk-high-contrast-active .mat-form-field-appearance-standard .mat-form-field-underline{height:0;border-top:solid 1px}.mat-form-field-appearance-standard .mat-form-field-ripple{bottom:0;height:2px}.cdk-high-contrast-active .mat-form-field-appearance-standard .mat-form-field-ripple{height:0;border-top:solid 2px}.mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline{background-position:0;background-color:transparent}.cdk-high-contrast-active .mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline{border-top-style:dotted;border-top-width:2px}.mat-form-field-appearance-standard:not(.mat-form-field-disabled) .mat-form-field-flex:hover~.mat-form-field-underline .mat-form-field-ripple{opacity:1;transform:none;transition:opacity 600ms cubic-bezier(0.25, 0.8, 0.25, 1)}.mat-form-field-appearance-standard._mat-animation-noopable:not(.mat-form-field-disabled) .mat-form-field-flex:hover~.mat-form-field-underline .mat-form-field-ripple{transition:none}
+</style></head>
+<body class="mat-typography">
+  <app-root _nghost-nkg-c91="" ng-version="13.2.5"><router-outlet _ngcontent-nkg-c91=""></router-outlet><app-regiser _nghost-nkg-c90="" class="ng-star-inserted"><div _ngcontent-nkg-c90="" fxlayout="column" fxlayoutalign="space-between center" ng-reflect-fx-layout="column" ng-reflect-fx-layout-align="space-between center" style="flex-direction: column; box-sizing: border-box; display: flex; place-content: center space-between; align-items: center;"><div _ngcontent-nkg-c90="" class="Component"><div _ngcontent-nkg-c90="" class="Container"><div _ngcontent-nkg-c90="" fxlayout="column" fxlayoutalign="space-between left" class="row-content" ng-reflect-fx-layout="column" ng-reflect-fx-layout-align="space-between left" style="flex-direction: column; box-sizing: border-box; display: flex; place-content: stretch space-between; align-items: stretch;"><div _ngcontent-nkg-c90="" class="head"><span _ngcontent-nkg-c90="" display="flex" class="textsty" style="color: #4285f4;">F</span><span _ngcontent-nkg-c90="" display="flex" class="textsty" style="color: #ea4335;">u</span><span _ngcontent-nkg-c90="" class="textsty" style="color: #fbbc05;">n</span><span _ngcontent-nkg-c90="" class="textsty" style="color: #4285f4;">d</span><span _ngcontent-nkg-c90="" class="textsty" style="color: #34a853;">o</span><span _ngcontent-nkg-c90="" class="textsty" style="color: #ea4335;">o</span></div><div _ngcontent-nkg-c90="" class="form-head">Create your Fundoo Account</div><div _ngcontent-nkg-c90="" fxlayout="row" fxlayoutalign="space-between center" class="Name" ng-reflect-fx-layout="row" ng-reflect-fx-layout-align="space-between center" style="flex-direction: row; box-sizing: border-box; display: flex; place-content: center space-between; align-items: center;"><mat-form-field _ngcontent-nkg-c90="" appearance="outline" class="mat-form-field ng-tns-c51-0 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted" ng-reflect-appearance="outline"><div class="mat-form-field-wrapper ng-tns-c51-0"><div class="mat-form-field-flex ng-tns-c51-0"><div class="mat-form-field-outline ng-tns-c51-0 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-0" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-0" style="width: 58.75px;"></div><div class="mat-form-field-outline-end ng-tns-c51-0"></div></div><div class="mat-form-field-outline mat-form-field-outline-thick ng-tns-c51-0 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-0" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-0" style="width: 58.75px;"></div><div class="mat-form-field-outline-end ng-tns-c51-0"></div></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--><div class="mat-form-field-infix ng-tns-c51-0"><input _ngcontent-nkg-c90="" matinput="" class="mat-input-element mat-form-field-autofill-control ng-tns-c51-0 cdk-text-field-autofill-monitored" ng-reflect-placeholder="FirstName" id="mat-input-0" data-placeholder="FirstName" aria-invalid="false" aria-required="false"><span class="mat-form-field-label-wrapper ng-tns-c51-0"><label class="mat-form-field-label ng-tns-c51-0 mat-empty mat-form-field-empty ng-star-inserted" ng-reflect-disabled="false" id="mat-form-field-label-1" ng-reflect-ng-switch="true" for="mat-input-0" aria-owns="mat-input-0"><!--bindings={
+  "ng-reflect-ng-switch-case": "false"
+}--><mat-label _ngcontent-nkg-c90="" class="ng-tns-c51-0 ng-star-inserted">FirstName</mat-label><!--bindings={
+  "ng-reflect-ng-switch-case": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></label><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></span></div><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div class="mat-form-field-subscript-wrapper ng-tns-c51-0" ng-reflect-ng-switch="hint"><!--bindings={
+  "ng-reflect-ng-switch-case": "error"
+}--><div class="mat-form-field-hint-wrapper ng-tns-c51-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!--bindings={
+  "ng-reflect-ng-if": ""
+}--><div class="mat-form-field-hint-spacer ng-tns-c51-0"></div></div><!--bindings={
+  "ng-reflect-ng-switch-case": "hint"
+}--></div></div></mat-form-field><mat-form-field _ngcontent-nkg-c90="" appearance="outline" class="mat-form-field ng-tns-c51-1 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted" ng-reflect-appearance="outline"><div class="mat-form-field-wrapper ng-tns-c51-1"><div class="mat-form-field-flex ng-tns-c51-1"><div class="mat-form-field-outline ng-tns-c51-1 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-1" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-1" style="width: 63.25px;"></div><div class="mat-form-field-outline-end ng-tns-c51-1"></div></div><div class="mat-form-field-outline mat-form-field-outline-thick ng-tns-c51-1 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-1" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-1" style="width: 63.25px;"></div><div class="mat-form-field-outline-end ng-tns-c51-1"></div></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--><div class="mat-form-field-infix ng-tns-c51-1"><input _ngcontent-nkg-c90="" matinput="" class="mat-input-element mat-form-field-autofill-control ng-tns-c51-1 cdk-text-field-autofill-monitored" ng-reflect-placeholder="LastName" id="mat-input-1" data-placeholder="LastName" aria-invalid="false" aria-required="false"><span class="mat-form-field-label-wrapper ng-tns-c51-1"><label class="mat-form-field-label ng-tns-c51-1 mat-empty mat-form-field-empty ng-star-inserted" ng-reflect-disabled="false" id="mat-form-field-label-3" ng-reflect-ng-switch="true" for="mat-input-1" aria-owns="mat-input-1"><!--bindings={
+  "ng-reflect-ng-switch-case": "false"
+}--><mat-label _ngcontent-nkg-c90="" class="ng-tns-c51-1 ng-star-inserted">LasstName</mat-label><!--bindings={
+  "ng-reflect-ng-switch-case": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></label><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></span></div><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div class="mat-form-field-subscript-wrapper ng-tns-c51-1" ng-reflect-ng-switch="hint"><!--bindings={
+  "ng-reflect-ng-switch-case": "error"
+}--><div class="mat-form-field-hint-wrapper ng-tns-c51-1 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!--bindings={
+  "ng-reflect-ng-if": ""
+}--><div class="mat-form-field-hint-spacer ng-tns-c51-1"></div></div><!--bindings={
+  "ng-reflect-ng-switch-case": "hint"
+}--></div></div></mat-form-field></div><div _ngcontent-nkg-c90="" fxlayout="column" fxlayoutalign="stretch" class="Email" ng-reflect-fx-layout="column" ng-reflect-fx-layout-align="stretch" style="flex-direction: column; box-sizing: border-box; display: flex; place-content: stretch flex-start; align-items: stretch;"><mat-form-field _ngcontent-nkg-c90="" appearance="outline" class="mat-form-field ng-tns-c51-2 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted" ng-reflect-appearance="outline"><div class="mat-form-field-wrapper ng-tns-c51-2"><div class="mat-form-field-flex ng-tns-c51-2"><div class="mat-form-field-outline ng-tns-c51-2 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-2" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-2" style="width: 118px;"></div><div class="mat-form-field-outline-end ng-tns-c51-2"></div></div><div class="mat-form-field-outline mat-form-field-outline-thick ng-tns-c51-2 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-2" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-2" style="width: 118px;"></div><div class="mat-form-field-outline-end ng-tns-c51-2"></div></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--><div class="mat-form-field-infix ng-tns-c51-2"><input _ngcontent-nkg-c90="" matinput="" class="mat-input-element mat-form-field-autofill-control ng-tns-c51-2 cdk-text-field-autofill-monitored" ng-reflect-placeholder="UserName.com" id="mat-input-2" data-placeholder="UserName.com" aria-invalid="false" aria-required="false"><span class="mat-form-field-label-wrapper ng-tns-c51-2"><label class="mat-form-field-label ng-tns-c51-2 mat-empty mat-form-field-empty ng-star-inserted" ng-reflect-disabled="false" id="mat-form-field-label-5" ng-reflect-ng-switch="true" for="mat-input-2" aria-owns="mat-input-2"><!--bindings={
+  "ng-reflect-ng-switch-case": "false"
+}--><mat-label _ngcontent-nkg-c90="" class="ng-tns-c51-2 ng-star-inserted">UserName@gmail.com</mat-label><!--bindings={
+  "ng-reflect-ng-switch-case": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></label><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></span></div><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div class="mat-form-field-subscript-wrapper ng-tns-c51-2" ng-reflect-ng-switch="hint"><!--bindings={
+  "ng-reflect-ng-switch-case": "error"
+}--><div class="mat-form-field-hint-wrapper ng-tns-c51-2 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!--bindings={
+  "ng-reflect-ng-if": ""
+}--><div class="mat-form-field-hint-spacer ng-tns-c51-2"></div></div><!--bindings={
+  "ng-reflect-ng-switch-case": "hint"
+}--></div></div></mat-form-field><div _ngcontent-nkg-c90="" class="Para"><p _ngcontent-nkg-c90="">You can use letters,numbers &amp; periods</p></div><div _ngcontent-nkg-c90="" class="Hyper"><a _ngcontent-nkg-c90="">Use my current email address instead</a></div></div><div _ngcontent-nkg-c90="" fxlayout="row" fxlayoutalign="space-between center" class="Name" ng-reflect-fx-layout="row" ng-reflect-fx-layout-align="space-between center" style="flex-direction: row; box-sizing: border-box; display: flex; place-content: center space-between; align-items: center;"><mat-form-field _ngcontent-nkg-c90="" appearance="outline" class="mat-form-field ng-tns-c51-3 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted" ng-reflect-appearance="outline"><div class="mat-form-field-wrapper ng-tns-c51-3"><div class="mat-form-field-flex ng-tns-c51-3"><div class="mat-form-field-outline ng-tns-c51-3 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-3" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-3" style="width: 56.5px;"></div><div class="mat-form-field-outline-end ng-tns-c51-3"></div></div><div class="mat-form-field-outline mat-form-field-outline-thick ng-tns-c51-3 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-3" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-3" style="width: 56.5px;"></div><div class="mat-form-field-outline-end ng-tns-c51-3"></div></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--><div class="mat-form-field-infix ng-tns-c51-3"><input _ngcontent-nkg-c90="" matinput="" class="mat-input-element mat-form-field-autofill-control ng-tns-c51-3 cdk-text-field-autofill-monitored" ng-reflect-placeholder="Password" id="mat-input-3" data-placeholder="Password" aria-invalid="false" aria-required="false"><span class="mat-form-field-label-wrapper ng-tns-c51-3"><label class="mat-form-field-label ng-tns-c51-3 mat-empty mat-form-field-empty ng-star-inserted" ng-reflect-disabled="false" id="mat-form-field-label-7" ng-reflect-ng-switch="true" for="mat-input-3" aria-owns="mat-input-3"><!--bindings={
+  "ng-reflect-ng-switch-case": "false"
+}--><mat-label _ngcontent-nkg-c90="" class="ng-tns-c51-3 ng-star-inserted">Password</mat-label><!--bindings={
+  "ng-reflect-ng-switch-case": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></label><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></span></div><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div class="mat-form-field-subscript-wrapper ng-tns-c51-3" ng-reflect-ng-switch="hint"><!--bindings={
+  "ng-reflect-ng-switch-case": "error"
+}--><div class="mat-form-field-hint-wrapper ng-tns-c51-3 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!--bindings={
+  "ng-reflect-ng-if": ""
+}--><div class="mat-form-field-hint-spacer ng-tns-c51-3"></div></div><!--bindings={
+  "ng-reflect-ng-switch-case": "hint"
+}--></div></div></mat-form-field><mat-form-field _ngcontent-nkg-c90="" appearance="outline" class="mat-form-field ng-tns-c51-4 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted" ng-reflect-appearance="outline"><div class="mat-form-field-wrapper ng-tns-c51-4"><div class="mat-form-field-flex ng-tns-c51-4"><div class="mat-form-field-outline ng-tns-c51-4 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-4" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-4" style="width: 46.75px;"></div><div class="mat-form-field-outline-end ng-tns-c51-4"></div></div><div class="mat-form-field-outline mat-form-field-outline-thick ng-tns-c51-4 ng-star-inserted"><div class="mat-form-field-outline-start ng-tns-c51-4" style="width: 5.5px;"></div><div class="mat-form-field-outline-gap ng-tns-c51-4" style="width: 46.75px;"></div><div class="mat-form-field-outline-end ng-tns-c51-4"></div></div><!--ng-container--><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--><div class="mat-form-field-infix ng-tns-c51-4"><input _ngcontent-nkg-c90="" matinput="" class="mat-input-element mat-form-field-autofill-control ng-tns-c51-4 cdk-text-field-autofill-monitored" ng-reflect-placeholder="Confirm" id="mat-input-4" data-placeholder="Confirm" aria-invalid="false" aria-required="false"><span class="mat-form-field-label-wrapper ng-tns-c51-4"><label class="mat-form-field-label ng-tns-c51-4 mat-empty mat-form-field-empty ng-star-inserted" ng-reflect-disabled="false" id="mat-form-field-label-9" ng-reflect-ng-switch="true" for="mat-input-4" aria-owns="mat-input-4"><!--bindings={
+  "ng-reflect-ng-switch-case": "false"
+}--><mat-label _ngcontent-nkg-c90="" class="ng-tns-c51-4 ng-star-inserted">Confirm</mat-label><!--bindings={
+  "ng-reflect-ng-switch-case": "true"
+}--><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></label><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></span></div><!--bindings={
+  "ng-reflect-ng-if": "0"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div class="mat-form-field-subscript-wrapper ng-tns-c51-4" ng-reflect-ng-switch="hint"><!--bindings={
+  "ng-reflect-ng-switch-case": "error"
+}--><div class="mat-form-field-hint-wrapper ng-tns-c51-4 ng-trigger ng-trigger-transitionMessages ng-star-inserted" style="opacity: 1; transform: translateY(0%);"><!--bindings={
+  "ng-reflect-ng-if": ""
+}--><div class="mat-form-field-hint-spacer ng-tns-c51-4"></div></div><!--bindings={
+  "ng-reflect-ng-switch-case": "hint"
+}--></div></div></mat-form-field></div><div _ngcontent-nkg-c90="" class="Para"><p _ngcontent-nkg-c90="">Use 8 or more characters with the mix of letters,numbers &amp; symbol</p></div><div _ngcontent-nkg-c90=""><input _ngcontent-nkg-c90="" type="checkbox" ng-model="all"> ShowPassword<br _ngcontent-nkg-c90=""><br _ngcontent-nkg-c90=""><div _ngcontent-nkg-c90="" routerlink="/login" class="Sign" style="cursor: pointer;" tabindex="0" ng-reflect-router-link="/login">Sign in Instead</div></div><button _ngcontent-nkg-c90="" type="submit" class="Button">Next</button></div><div _ngcontent-nkg-c90="" class="account"><img _ngcontent-nkg-c90="" src="./Fundonotes_files/account.svg" alt=""><div _ngcontent-nkg-c90="" class="para"><p _ngcontent-nkg-c90="">One account. All of Google</p><p _ngcontent-nkg-c90="">Working for you</p></div></div></div></div></div></app-regiser><!--container--></app-root>
+<script src="./Fundonotes_files/runtime.js.download" type="module"></script><script src="./Fundonotes_files/polyfills.js.download" type="module"></script><script src="./Fundonotes_files/styles.js.download" defer=""></script><script src="./Fundonotes_files/vendor.js.download" type="module"></script><script src="./Fundonotes_files/main.js.download" type="module"></script>
+
+</body></html>
