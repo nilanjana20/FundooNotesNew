@@ -21,21 +21,20 @@ button{
 }
 
 .color{
-width: 25px;
-height: 25px;
-border-radius: 12px;
-margin-right: 10px;
-margin-left: 10px;
+width: 30px;
+height: 30px;
+border-radius: 20px;
+margin: auto;
+opacity: 1;
 }
 
 .themes{
-// margin-left: 10px;
-display:inline-block ;
-// display: flex;
-width: auto;
-// margin-right: 10px;
-// margin-block: -2px;
-// margin-inline: -6px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 30px;
+// margin-right: 5px;
+// margin-bottom: 10px;
 }
 
 mat-icon{

@@ -17,7 +17,7 @@ export class IconsComponent implements OnInit {
   @Input() message: any;  
 
 @Output() refresh = new EventEmitter<any>();
-colorMessage = "color applied";
+  colorMessage = "color applied";
   archiveMessage="archive refreshed";
   trashMessage = "trash refreshed";
 

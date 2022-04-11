@@ -14,10 +14,13 @@
     <button mat-icon-button [matMenuTriggerFor]="background_option">
       <img src="../../../assets/images/background_option.svg" alt="">
     </button>
-    <mat-menu #background_option="matMenu" class="box">
-      <div *ngFor="let color of colors" class="themes">
-        <button [style.background]="color?.code" class="color" (click)="backgroundcolornotes(color?.code)"></button>
+    <mat-menu #background_option="matMenu" >
+      <div style="display: flex; flex-flow: row wrap; width: 120px;">
+        <div *ngFor="let color of colors" class="themes">
+          <button [style.background]="color?.code" class="color" (click)="backgroundcolornotes(color?.code)"></button>
+        </div>
       </div>
+     
     </mat-menu>
   </div>
   <div class="icons">
